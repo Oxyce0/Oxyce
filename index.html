@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><link rel="icon" href="simge.png">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxyce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- <script type="text/javascript" src="snow.js"></script> -->
+
+</head>
+<body oncontextmenu="return false;">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://discord.com/users/584675230077681685"target="_blank"><img src="simge.png" height="70"></html></a>
+            </div>
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UC39k5xFGXC-DXccVeQ2GrDA/videos"target="_blank">𝐘𝐎𝐔𝐓𝐔𝐁𝐄</a></li>
+            </ul> 
+            <div class="box">
+                <img src= "pp.png" height="300" width="300" >
+                <h1>𝐎𝐗𝐘𝐂𝐄</h1>⁣⁣⁣
+                <h2>#𝟔𝟖𝟎𝟖 - 𝐎𝐗 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲</h2>
+                <p>𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 𝐈𝐬 𝐄𝐦𝐩𝐭𝐲</p>
+                <p><b>oxyce@protonmail.com</b></p>
+                <hr>
+                <p id="oxtimer"></p>
+                <hr>
+                <li><a href="https://www.instagram.com/mrtens.oz/"target="_blank"><i class="fab fa-instagram"></i></a></li> 
+                <li><a href="https://t.me/oxyce0"target="_blank"><i class="fab fa-telegram"></i></a></li>
+                <li><a href="https://discord.com/users/600613444915560452"target="_blank"><i class="fab fa-discord"></i></a></li>
+                <li><a href="https://www.twitch.tv/oxyce"target="_blank"><i class="fab fa-twitch"></i></a></li>
+         </div>
+         <iframe width="0" height="0" src="https://www.youtube.com/embed/LsV2GWlGh-o?rel=0&amp;autoplay=1" frameborder="0"></iframe>
+    </div> 
+    <script language="JavaScript">
+        document.onkeypress = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                return false;
+            }
+        }
+        document.onmousedown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                return false;
+            }
+        }
+    document.onkeydown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                return false;
+            }
+        }
+    </script> 
+
+    <script>
+var future = new Date("Oct 13, 2021 24:00:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = future - now;
+  var ox1 = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var ox2 = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var ox3 = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var ox4 = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("oxtimer").innerHTML = ox1 + "D " + ox2 + "H "
+  + ox3 + "M " + ox4 + "S ";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("oxtimer").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
